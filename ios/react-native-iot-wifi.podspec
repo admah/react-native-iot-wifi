@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.homepage     = package['homepage']
   s.platform     = :ios, "9.0"
 
-  s.source       = { :git => "https://github.com/tadasr/react-native-iot-wifi.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/admah/react-native-iot-wifi.git", :tag => "#{s.version}" }
   s.source_files  = "ios/**/*.{h,m}"
 end
